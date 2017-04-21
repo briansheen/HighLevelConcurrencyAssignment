@@ -35,7 +35,7 @@ public class BuyShares implements Callable<String> {
         } catch (InterruptedException e) {
             //do nothing
         }
-        return "Bought " + numShares + " of stock " + stockName + " at price " + sharePrice + " by trader " + traderName;
+        return "Bought " + numShares + " of stock " + stockName + " at price " + sharePrice + " by tra!der " + traderName;
     }
 
 }
